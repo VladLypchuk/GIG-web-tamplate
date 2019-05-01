@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">UAT_Car_Sub</th></tr>
+<tr><td><a href="#t0">Sign Up Pass</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">27,621</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Sign Up Fail</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,707</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Sign Slider Fail</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,751</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Sign Slider Pass</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">40,447</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num attn">2</th><th class="num">123,526</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">UAT_Car_Sub</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sign Up Pass &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">suite.UAT_Sign_Up_Pass_Test</td><td><a href="#m0">testToDo</a></td><td rowspan="1">1554752963683</td><td rowspan="1">16938</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Sign Up Fail &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">suite.UAT_Sign_Up_Fail_Test</td><td><a href="#m1">testToDo</a></td><td rowspan="1">1554752963683</td><td rowspan="1">17098</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Sign Slider Fail &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">suite.UAT_Filter_Slider_Fail_Test</td><td><a href="#m2">testToDo</a></td><td rowspan="1">1554752992121</td><td rowspan="1">17986</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Sign Slider Pass &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">suite.UAT_Filter_Slider_Pass_Test</td><td><a href="#m3">testToDo</a></td><td rowspan="1">1554752998025</td><td rowspan="1">25204</td></tr></tbody>
+</table>
+<h2>Sign Up Pass</h2><h3 id="m0">suite.UAT_Sign_Up_Pass_Test#testToDo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sign Up Fail</h2><h3 id="m1">suite.UAT_Sign_Up_Fail_Test#testToDo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [There was an error looking up your email address!] but found [There was an error looking up your email address]
+	at suite.UAT_Sign_Up_Fail_Test.testToDo(UAT_Sign_Up_Fail_Test.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sign Slider Fail</h2><h3 id="m2">suite.UAT_Filter_Slider_Fail_Test#testToDo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Here are more vehicles available in your area] but found [Here are more vehicles available in your area:]
+	at suite.UAT_Filter_Slider_Fail_Test.testToDo(UAT_Filter_Slider_Fail_Test.java:94)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sign Slider Pass</h2><h3 id="m3">suite.UAT_Filter_Slider_Pass_Test#testToDo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+suite\CBTAPI.class
+suite\UAT_Filter_Slider_Pass_Test.class
+suite\CBTTest.class
+suite\UAT_Sign_Up_Pass_Test.class
+suite\UAT_Filter_Slider_Fail_Test.class
+suite\UAT_Sign_Up_Fail_Test.class

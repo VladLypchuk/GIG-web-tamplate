@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 69.518 s <<< FAILURE! - in TestSuite
+testToDo(suite.UAT_Sign_Up_Fail_Test)  Time elapsed: 17.106 s  <<< FAILURE!
+java.lang.AssertionError: expected [There was an error looking up your email address!] but found [There was an error looking up your email address]
+	at suite.UAT_Sign_Up_Fail_Test.testToDo(UAT_Sign_Up_Fail_Test.java:97)
+
+testToDo(suite.UAT_Filter_Slider_Fail_Test)  Time elapsed: 12.081 s  <<< FAILURE!
+java.lang.AssertionError: expected [Here are more vehicles available in your area] but found [Here are more vehicles available in your area:]
+	at suite.UAT_Filter_Slider_Fail_Test.testToDo(UAT_Filter_Slider_Fail_Test.java:94)
+

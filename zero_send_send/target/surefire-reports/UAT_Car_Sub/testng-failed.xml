@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [UAT_Car_Sub]" parallel="tests">
+  <test thread-count="2" verbose="0" name="Sign Up Fail(failed)" parallel="tests">
+    <parameter name="browser" value="IE11"/>
+    <parameter name="Demo_Sign_Up_Fail" value="Windows 10"/>
+    <classes>
+      <class name="suite.UAT_Sign_Up_Fail_Test">
+        <methods>
+          <include name="testToDo"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- suite.UAT_Sign_Up_Fail_Test -->
+    </classes>
+  </test> <!-- Sign Up Fail(failed) -->
+  <test thread-count="2" verbose="0" name="Sign Slider Fail(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome73x64"/>
+    <parameter name="Demo_Filters_Fail" value="Windows 10"/>
+    <classes>
+      <class name="suite.UAT_Filter_Slider_Fail_Test">
+        <methods>
+          <include name="testToDo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- suite.UAT_Filter_Slider_Fail_Test -->
+    </classes>
+  </test> <!-- Sign Slider Fail(failed) -->
+</suite> <!-- Failed suite [UAT_Car_Sub] -->
