@@ -1,3 +1,4 @@
+// POST
 package suite;
 
 import java.io.IOException;
@@ -8,12 +9,12 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-public class CBT_R_R_Template_Suite_Start_API {
+public class CBT_RR_POST_API {
 	private static String username;
 	private static String authkey;
 	private static String suite;
 	
-	public CBT_R_R_Template_Suite_Start_API (String username, String authkey, String suite) {
+	public CBT_RR_POST_API (String username, String authkey, String suite) {
 		this. username = username;
 		this. authkey = authkey;
 		this. suite = suite;

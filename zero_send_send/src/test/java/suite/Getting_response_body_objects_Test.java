@@ -1,3 +1,4 @@
+// scatch for GET api test/validating body
 package suite;
 
 import org.json.JSONObject;

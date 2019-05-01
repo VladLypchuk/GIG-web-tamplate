@@ -1,3 +1,4 @@
+// GET 
 package suite;
 
 import java.io.IOException;
@@ -8,12 +9,12 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-public class AAA_API {
+public class CBT_RR_GET_API {
 
 	private String username, authkey, suite;
 	private JSONObject json;
 	
-	public AAA_API(String username, String authkey, String suite) {
+	public CBT_RR_GET_API(String username, String authkey, String suite) {
 		this. username = username;
 		this. authkey = authkey;
 		this. suite = suite;

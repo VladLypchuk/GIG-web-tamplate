@@ -4,10 +4,10 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-public class CBTAPI {
+public class CBT_Selenium_API {
     private String username, authkey;
 
-    public CBTAPI(String username, String authkey) {
+    public CBT_Selenium_API(String username, String authkey) {
         this.username = username; // Your username
         this.authkey = authkey; // Your authkey
     }

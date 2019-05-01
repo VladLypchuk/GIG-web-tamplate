@@ -1,3 +1,4 @@
+// GET test 
 package suite;
 
 import java.io.IOException;
@@ -9,10 +10,10 @@ import org.testng.annotations.Test;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-public class AAA_Test {
+public class CBT_RR_GET_Test {
 	
-	private AAA_API apiA;
-	private CBT_R_R_Template_Suite_Start_API api;
+	private CBT_RR_GET_API apiA;
+	private CBT_RR_POST_API api;
 	
 	@Test
 	public void exec() throws UnirestException, IOException, InterruptedException {
@@ -21,14 +22,14 @@ public class AAA_Test {
         String suite = "5ca63a7fb69e4a01a8ac0433";
         	        
         // Post
-        api = new CBT_R_R_Template_Suite_Start_API(username, authkey, suite);
+        api = new CBT_RR_POST_API(username, authkey, suite);
         String id = api.testSuiteRun();
         
         System.out.println("GET test_run_id: " + id);
         System.out.println(" ");
 		
         // Get
-		apiA = new AAA_API(username, authkey, suite);
+		apiA = new CBT_RR_GET_API(username, authkey, suite);
 				
 		JSONObject json = apiA.testSuiteResults(id);
 				

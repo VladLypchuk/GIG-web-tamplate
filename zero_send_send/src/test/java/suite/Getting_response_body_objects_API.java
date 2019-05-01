@@ -1,3 +1,4 @@
+// scatch for GET api
 package suite;
 
 import java.io.IOException;

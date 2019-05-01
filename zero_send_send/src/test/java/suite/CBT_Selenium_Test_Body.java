@@ -13,9 +13,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class CBTTest {
+public class CBT_Selenium_Test_Body {
     private RemoteWebDriver driver;
-    private CBTAPI api;
+    private CBT_Selenium_API api;
     private String score;
 
     @BeforeTest
@@ -35,7 +35,7 @@ public class CBTTest {
         
         // caps.setCapability("record_network", "true");
 
-        api = new CBTAPI(username, authkey);
+        api = new CBT_Selenium_API(username, authkey);
 
         String hubAddress = String.format("http://%s:%s@hub.crossbrowsertesting.com:80/wd/hub", username, authkey);
         URL url = new URL(hubAddress);
